@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Landing page Super App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+    
+    <!-- Menu de navigation -->
+            <header>
+                <div class="container">
+                <nav>
+                    <ul>
+                    <li><img src="Images/Logo.png" title="Logo SuperApp" alt="Logo de Super App avec le S de Superman à la place du S de Super"></li>
+                    <li><a href="#" title="À propos">&Agrave; propos</a></li>
+                    <li><a href="#" title="Services">Services</a></li>                
+                    <li><a href="#" title="L'équipe">L'équipe</a></li>                
+                    <li><a href="#" title="Contact">Contact</a></li>                
+                    </ul>
+                </nav>
+                </div>
+            </header>
+
+    <!-- Section de présentation avec image d'un i-phone en arrière plan -->
+            <div class="presentation adaptbackground"> <!--adaptbackground adaptbackgroundface juste à côté de presentation, + presentationteam-->
+                <div class="container">
+
+                    <h1>SUPER APP</h1>
+                    <p>L'application trop super !</p>
+                    <button><img src="Images/thumbs-up.svg" alt="Pouce vers le haut">Like it</button>
+                    <button><img src="Images/heart-shape-silhouette.svg" alt="Coeur">Love it</button>
+                    <button><img src="Images/shopping-cart-black-shape.svg" alt="Caddy">Buy it</button>
+
+                </div>
+            </div>
+
+    <!-- Section avec description de l'app -->
+            <section class="content">
+                <div class="container">
+                        <h2>ELLE FAIT DES TRUCS SUPERS !</h2>
+                    <div class="description">
+                        <div class="item">
+                            <div class="avatar"><img src="Images/fork-and-knife-silhouette.svg" alt="Une fourchette et un couteau"></div>
+                            <h3>Mettre la table</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                        </div>
+                        <div class="item">
+                            <div class="avatar"><img src="Images/bed.svg" alt="Un lit"></div>
+                            <h3>Faire le lit</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                        </div>
+                        <div class="item">
+                            <div class="avatar"><img src="Images/fire-symbol.svg" alt="Un feu"></div>
+                            <h3>Allumer le feu</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                        </div>
+                        <div class="item">
+                            <div class="avatar"><img src="Images/plant-leaf-with-white-details.svg" alt="Une feuille"></div>
+                            <h3>Ramasser les feuilles</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                        </div>
+                        <div class="item">
+                            <div class="avatar"><img src="Images/umbrella-black-silhouette.svg" alt="Un parapluie"></div>
+                            <h3>Protéger de la pluie</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                        </div>
+                        <div class="item">
+                            <div class="avatar"><img src="Images/dollar-symbol.svg" alt="Un symbole dollar"></div>
+                            <h3>Vider votre compte</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehendit provident nam officiis ex harum, dolor sit dicta mius fugit, debitis.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <!-- Section titre de présentation de l'équipe -->
+            <div class="presentation-team adaptbackgroundface">
+                <div class="container">
+                    <h1>La super équipe à l'origine de SuperApp</h1>
+                </div>
+            </div>
+
+    <!-- Section présentation de l'équipe -->
+            <section class="team">
+                <div class="container">
+                    <div class="members">
+                        <div class="member">
+                            <img src="Images/avaone.jpg.png" alt="Photo représentant le membre en question">
+                            <h3>Tex Talign</h3>
+                            <button><img src="Images/envelope.svg" alt="Une enveloppe">Lui écrire</button>
+                        </div>
+                        <div class="member">
+                            <img src="Images/avatwo.jpg.png" alt="Photo représentant le membre en question">
+                            <h3>Marge Inn</h3>
+                            <button><img src="Images/envelope.svg" alt="Une enveloppe">Lui écrire</button>
+                        </div>
+                        <div class="member">
+                            <img src="Images/avathree.jpg.png" alt="Photo représentant le membre en question">
+                            <h3>Isaac Newton</h3>
+                            <button><img src="Images/envelope.svg" alt="Une enveloppe">Lui écrire</button>
+                        </div>
+                        <div class="member">
+                            <img src="Images/avafour.jpg.png" alt="Photo représentant le membre en question">
+                            <h3>Ash Tehemel</h3>
+                            <button><img src="Images/envelope.svg" alt="Une enveloppe">Lui écrire</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <!-- Formulaire -->
+            <footer>
+                <div class="container">
+                    <h2>ENVOYEZ-NOUS UN MESSAGE</h2>
+                    
+                    <form action="index.html" method="get" class="speaker-form">
+                        <div class="form-row">
+                            <!--créer un div=formgroup entre chaque pour créer du CSS et faire une meilleure mise en page du formulaire?-->
+                                <label for="full-name">Votre nom</label>
+                                <input id="full-name" name="full-name" type="text">
+                                <label for="email">Votre e-mail</label>
+                                <input id="email" name="email" type="email">
+                        </div>
+                        <div class="form-row">
+                                <label for="abstract">Votre message</label>
+                                <textarea id="abstract" name="abstract"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <button type="submit"><img src="Images/paper-plane.svg" alt="Un avion en papier">Envoyer</button>
+                        </div>
+                    </form>
+
+                </div>
+            </footer>
+
+    </body>
+</html>
